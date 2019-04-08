@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Ben-yon/Simulated_2.0/issues"
   },
-  "homepage": "https://github.com/Ben-yon/Simulated_2.0#readme"
+  "homepage": "https://github.com/Ben-yon/Simulated_2.0#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2"
+  }
 }
