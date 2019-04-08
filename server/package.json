@@ -1,30 +1,19 @@
 {
-  "name": "simulated_2.0",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Final project ",
+  "description": "api for simulated annealing project",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ben-yon/Simulated_2.0.git"
   },
-  "keywords": [
-    "simulate",
-    "annealing"
-  ],
   "author": "Ikeh Benjamin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ben-yon/Simulated_2.0/issues"
   },
-  "homepage": "https://github.com/Ben-yon/Simulated_2.0#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "pg": "^7.9.0",
-    "pg-hstore": "^2.3.2"
-  }
+  "homepage": "https://github.com/Ben-yon/Simulated_2.0#readme"
 }
