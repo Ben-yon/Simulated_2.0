@@ -4,7 +4,8 @@
   "description": "api for simulated annealing project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,11 @@
   },
   "homepage": "https://github.com/Ben-yon/Simulated_2.0#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "nodemon": "^1.18.11",
     "pg": "^7.9.0",
-    "pg-hstore": "^2.3.2"
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.2.13"
   }
 }
