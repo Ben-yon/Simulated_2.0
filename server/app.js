@@ -5,8 +5,6 @@ const path = require('path');
 
 const db = require('./config/database');
 
-
-
 //test db
 db.authenticate()
 .then(() => console.log('...database connected'))
@@ -21,7 +19,7 @@ app.get('/', (req, res) =>
 
 // rooms router  
 app.use('/room', require('./routes/room'))
+//user router
+app.use('/user', require('./routes/user'))
 
-const Port = process.env.PORT || 5000;
-
-app.listen(Port, console.log(`Server started on port ${Port}`));
+module.exports = app;
